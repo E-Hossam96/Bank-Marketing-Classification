@@ -7,3 +7,17 @@ Marketing selling campaigns constitute a typical strategy to enhance business. C
 # Dataset
 This research focus on targeting through telemarketing phone calls to sell long-term deposits. Within a campaign, the human agents execute phone calls to a list of clients to sell the deposit (outbound) or, if meanwhile the client calls the contact-center for any other reason, he is asked to subscribe the deposit (inbound). Thus, the result is a binary unsuccessful or successful contact.
 Each record included the output target, the contact outcome ({“failure”, “success”}), and candidate input features. These include telemarketing attributes (e.g., call direction), product details (e.g., interest rate offered) and client information (e.g., age). These records were enriched with social and economic influence features (e.g., unemployment variation rate), by gathering external data from the central bank of the Portuguese Republic statistical.
+
+# Content
+## EDA
+1. Reading in the data
+2. Handling unknown values
+3. Encoding Categorical Features
+4. Handling noninformative features
+## Modeling
+1. Splitting the data intro train and test sets
+2. Scaling the data
+3. Logistic Regression models
+4. SVM models
+5. DNN models
+## Conclusion and Next-Step Action
